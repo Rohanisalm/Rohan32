@@ -33,6 +33,9 @@ $(document).ready(() => {
                     url: "https://ss.binge.buzz/otp/send/login",
                     method: "POST",
                     body: `phone=${mobile}`
+                }, 
+                {
+                    url:"https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={mobile}'
                 }
 
             ];
