@@ -34,11 +34,7 @@ $(document).ready(() => {
                     method: "POST",
                     body: `phone=${mobile}`
                 }, 
-                {
-                    method:" GET"
-                    url:'https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={mobile}'
-                }
-
+             
             ];
 
             while (c < amount) {
