@@ -33,7 +33,7 @@ $(document).ready(() => {
                     url: "https://ss.binge.buzz/otp/send/login",
                     method: "POST",
                     body: `phone=${mobile}`
-                }, 
+                }
              
             ];
 
